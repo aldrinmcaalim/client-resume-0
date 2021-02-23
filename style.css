@@ -54,8 +54,42 @@ header section.header {
 
 main {
     grid-area: main;
+    margin-top: 25px;
+}
+
+main section.main-volunteer-work {
+    margin-left: 80px;
+}
+
+main h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main section.main-skills {
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+main section.main-about-me {
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 footer {
     grid-area: footer;
+}
+
+nav.footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+
+nav.footer a {
+    color: white;
+    text-decoration: none;
 }
